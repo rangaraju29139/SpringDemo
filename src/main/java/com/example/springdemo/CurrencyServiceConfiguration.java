@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "currency-service")
 @Component
 public class CurrencyServiceConfiguration {
-    private String url="http://localhost";
-    private String username="username";
-    private String key="password";
+    private String url;
+    private String username;
+    private String key;
 
     public String getUrl() {
         return url;
